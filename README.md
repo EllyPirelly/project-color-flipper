@@ -22,7 +22,9 @@ Author of this is John Smilga
 
 ### Visuals - what you get with this code
 
-ToDo
+![screen01](./img/screenshot01.png)
+![screen01](./img/screenshot02.png)
+![screen01](./img/screenshot03.png)
 
 <!-- 480px
 ![480px](./img/screenshots/)
