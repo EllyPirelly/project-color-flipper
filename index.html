@@ -12,12 +12,16 @@
 
 <body>
     <header>
-        <h4 class="headline main">Simple Color Flipper</h4>
+        <h4 class="headline main">Named, Hex and rgba Color Flipper</h4>
     </header>
     <main class="container">
-        <h2 class="headline second">Background Color: <span class="color-display" data-display="color-display">#f1f5f8</span></h2>
-        <button class="btn btn-simple" data-btn="btn-simple">Simple Color - Click me</button>
-        <button class="btn btn-hex" data-btn="btn-hex">Hex Color - Click me</button>
+        <div class="colordisplay-container">
+            <h2 class="headline second">Changed background color:</h2>
+            <span class="color-display" data-display="color-display">#dbe2e7</span>
+        </div>
+        <button class="btn btn-simple" data-btn="btn-simple">named color - click me</button>
+        <button class="btn btn-hex" data-btn="btn-hex">hex color - click me</button>
+        <button class="btn btn-rgba" data-btn="btn-rgba">rgba color - click me</button>
     </main>
 
     <script src="./index.js"></script>

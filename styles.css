@@ -19,22 +19,12 @@ header {
 }
 
 .headline.main {
-    align-items: center;
     color: #858484;
+    align-items: center;
     display: flex;
     font-size: 1.5em;
     justify-content: center;
     padding: 24px;
-    text-transform: capitalize;
-}
-
-.headline.second {
-    background-color: #282828;
-    color: #fff;
-    padding: 24px;
-    border-radius: 10px;
-    margin-bottom: 50px;
-    font-size: 2em;
 }
 
 .container {
@@ -42,12 +32,27 @@ header {
     text-align: center;
 }
 
+.colordisplay-container {
+    background-color: #282828;
+    color: #fff;
+    padding: 24px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.headline.second,
+.color-display {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
 .color-display {
     color: #beccda;
 }
 
 .btn-simple,
-.btn-hex {
+.btn-hex,
+.btn-rgba {
     background: transparent;
     border: 1px solid #282828;
     border-radius: 8px;
@@ -59,7 +64,8 @@ header {
 }
 
 .btn-simple:hover,
-.btn-hex:hover {
+.btn-hex:hover,
+.btn-rgba:hover {
     color: #fff;
     background: #282828;
 }
